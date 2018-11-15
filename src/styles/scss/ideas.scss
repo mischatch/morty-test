@@ -1,0 +1,35 @@
+@import 'mixins';
+
+.ideas-container {
+  width: 940px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  margin-top: 80px;
+  @media screen and (min-width: 700px) and (max-width: 990px){
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 699px){
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 40px;
+  }
+  .ideas-title {
+    text-align: center;
+    color: $gray;
+    font-family: $mont;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+  .ideas-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

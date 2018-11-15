@@ -1,0 +1,72 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 2px solid #FF4E50;
+  margin-bottom: 36px; }
+  @media screen and (min-width: 700px) and (max-width: 990px) {
+    .footer-container {
+      padding: 0 20px;
+      box-sizing: border-box; } }
+  @media screen and (max-width: 699px) {
+    .footer-container {
+      width: 100%;
+      padding: 0 10px;
+      box-sizing: border-box; } }
+  .footer-container .footer-internal {
+    margin-top: 39px;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 940px; }
+    @media screen and (max-width: 699px) {
+      .footer-container .footer-internal {
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-row-gap: 10px;
+        margin-top: 22px; } }
+    .footer-container .footer-internal .footer-logo {
+      color: #FF4E50;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 500; }
+      @media screen and (max-width: 699px) {
+        .footer-container .footer-internal .footer-logo {
+          text-align: center; } }
+    .footer-container .footer-internal .footer-company {
+      color: #444444;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: bold; }
+      @media screen and (max-width: 699px) {
+        .footer-container .footer-internal .footer-company {
+          text-align: center; } }
+      .footer-container .footer-internal .footer-company ul {
+        padding: 0;
+        list-style: none;
+        line-height: 26px;
+        margin: 0; }
+        @media screen and (max-width: 699px) {
+          .footer-container .footer-internal .footer-company ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center; } }
+        .footer-container .footer-internal .footer-company ul li {
+          color: #999999;
+          font-family: "Roboto", sans-serif;
+          font-size: 14px;
+          font-weight: 300; }
+          @media screen and (max-width: 699px) {
+            .footer-container .footer-internal .footer-company ul li {
+              padding: 0 10px; } }
+    .footer-container .footer-internal .footer-partners {
+      color: #444444;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: bold; }
+      @media screen and (max-width: 699px) {
+        .footer-container .footer-internal .footer-partners {
+          text-align: center; } }
+
+/*# sourceMappingURL=footer.css.map */

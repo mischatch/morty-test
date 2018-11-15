@@ -1,0 +1,41 @@
+.meet-card {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; }
+  .meet-card .meet-icon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 55px;
+    top: 88px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .meet-card .meet-icon.tune {
+      background: #FF4E50; }
+    .meet-card .meet-icon.brush {
+      background: #19D4CA; }
+    .meet-card .meet-icon.photo {
+      background: #FFA710; }
+    .meet-card .meet-icon.plane {
+      background: #667DF3; }
+  .meet-card-name {
+    color: #444444;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center; }
+  .meet-card-info {
+    color: #666666;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: center;
+    margin: 0; }
+
+/*# sourceMappingURL=meetItem.css.map */

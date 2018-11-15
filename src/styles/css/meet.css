@@ -1,0 +1,55 @@
+.meet-container {
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  margin-top: 80px; }
+  @media screen and (max-width: 699px) {
+    .meet-container {
+      width: 100%;
+      margin-top: 40px; } }
+  .meet-container .meet-title {
+    color: #444444;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 35px; }
+  .meet-container .meet-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; }
+    @media screen and (min-width: 700px) and (max-width: 990px) {
+      .meet-container .meet-cards {
+        display: grid;
+        grid-template-columns: 25% 25%;
+        grid-row-gap: 20px;
+        width: 100%;
+        justify-content: center; } }
+    @media screen and (max-width: 699px) {
+      .meet-container .meet-cards {
+        display: grid;
+        grid-row-gap: 20px;
+        width: 100%;
+        justify-content: center; } }
+  .meet-container .partners-link {
+    height: 40px;
+    width: 180px;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    color: #FF4E50;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 45px; }
+    @media screen and (max-width: 699px) {
+      .meet-container .partners-link {
+        width: 270px; } }
+
+/*# sourceMappingURL=meet.css.map */

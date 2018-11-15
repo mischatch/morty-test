@@ -1,0 +1,33 @@
+.how-container {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  align-self: center;
+  margin-top: 80px; }
+  @media screen and (min-width: 700px) and (max-width: 990px) {
+    .how-container {
+      width: 100%;
+      padding: 0 10px;
+      box-sizing: border-box; } }
+  @media screen and (max-width: 699px) {
+    .how-container {
+      width: 100%;
+      margin-top: 40px; } }
+  .how-container .how-title {
+    font-size: 30px;
+    text-align: center;
+    color: #444444;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 35px; }
+  .how-container .how-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    @media screen and (max-width: 699px) {
+      .how-container .how-cards {
+        flex-direction: column;
+        padding: 0 10px; } }
+
+/*# sourceMappingURL=how.css.map */

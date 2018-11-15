@@ -1,0 +1,54 @@
+@import 'mixins';
+
+
+.meet-card {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  .meet-image-container {
+
+  }
+  .meet-icon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 55px;
+    top: 88px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.tune{
+      background: #FF4E50
+     }
+    &.brush{
+      background: #19D4CA
+     }
+    &.photo{
+      background: #FFA710
+     }
+    &.plane{
+      background: #667DF3
+    }
+  }
+  &-name {
+    color: $gray;
+    font-family: $mont;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+  }
+  &-info {
+    	color: $gray2;
+      font-family: $roboto;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 17px;
+      text-align: center;
+      margin: 0;
+  }
+}

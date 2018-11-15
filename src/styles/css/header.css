@@ -1,0 +1,45 @@
+.header {
+  position: absolute;
+  display: flex;
+  top: 0;
+  width: 940px;
+  height: 150px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  @media screen and (min-width: 700px) and (max-width: 990px) {
+    .header {
+      width: 100%;
+      padding: 0 50px;
+      box-sizing: border-box; } }
+  @media screen and (max-width: 699px) {
+    .header {
+      width: 100%;
+      flex-direction: column-reverse;
+      padding-top: 20px;
+      height: 160px; } }
+  .header .logo {
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    z-index: 1;
+    cursor: pointer; }
+  .header .auth {
+    display: flex;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px; }
+    .header .auth .login {
+      font-size: 14px;
+      line-height: 40px;
+      cursor: pointer; }
+    .header .auth .signup {
+      border-radius: 40px;
+      border: 2px solid #FFFFFF;
+      padding: 10px 17px;
+      margin-left: 27px;
+      cursor: pointer; }
+
+/*# sourceMappingURL=header.css.map */
