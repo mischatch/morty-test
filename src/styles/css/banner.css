@@ -8,10 +8,12 @@
   flex-direction: column; }
   @media screen and (min-width: 700px) and (max-width: 990px) {
     .banner {
-      height: 770px; } }
+      height: 770px;
+      width: 100%; } }
   @media screen and (max-width: 699px) {
     .banner {
-      height: 540px; } }
+      height: 540px;
+      width: 100%; } }
   .banner .slogan-1 {
     width: 473px;
     color: #FFFFFF;
